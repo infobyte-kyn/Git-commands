@@ -1,0 +1,71 @@
+    ls -a
+    git --version 
+    ls -al
+    git init . {To make folder git ready}
+    git status  
+    git config list  {To check local git user & email config}
+    git config --list
+    git config --global user.name "Jyonny Deepth"
+    git config --global user.email  "JyonnyDeepth@example.com"
+    git config --list
+    git add index.html 
+    git status 
+    git commit -m "App v1"
+    git branch -m master main  {To change branch name}
+    git branch 
+    git log    
+    git log --oneline {Logs in one line hexa-code in short}
+    git log --pretty=oneline {logs but hexa-code in full-form}
+    git status 
+    git restore index.html {from working area}
+    git diff index.html {to check changes in file}
+    git status 
+    git add index.html 
+    git status 
+    git restore --staged index.html {to restore from staging area}
+    git status 
+    git restore index.html 
+    git status 
+    git commit -a
+    git status 
+    git add index.html 
+    git status 
+    git commit -m "App v3"
+    git log 
+    git diff index.h
+    git show ff7067daba6f318238deab0dc0f5462f6837d4c3:index.html {to see previous commted file data} 
+    git log 
+    git show 1c6b28934764f11a8d1f168d6b568433af1afdc0:index.html 
+    git log 
+    git checkout ff7067daba6f318238deab0dc0f5462f6837d4c3  -- * {to go to previous commted data}
+   git log 
+   git checkout 1c6b28934764f11a8d1f168d6b568433af1afdc0 -- index.html
+   git log 
+   git checkout main -- * {to go to main/master branch}
+   git status 
+   git diff --cached 
+   git diff --cached index.html
+   git status 
+   git add index.html 
+   git status 
+   git restore --worktree .{to restore worktree}
+   git log 
+   git status 
+   git add index.html 
+   git commit -m "error commit"
+   git status 
+   git log 
+   git checkout 1c6b28934764f11a8d1f168d6b568433af1afdc0 -- *
+   git checkout main -- *
+   git log 
+   git reset --hard HEAD^^ {go to old commites ^^ two step back}
+   git log 
+   git log --oneline 
+   git log -p -1
+   git log --stat 
+   git log --pretty=oneline 
+   git log oneline 
+   git log --oneline 
+   git log -S "p"
+   git log --grep=v
+   git log --author=Deepth

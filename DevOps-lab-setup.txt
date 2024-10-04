@@ -1,0 +1,14 @@
+     sudo dnf update -y
+     sudo yum install -y yum-utils
+     sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+     sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+     sudo rpm -Uivh /home/student/Downloads/code-1.93.1-1726079369.el8.x86_64.rpm 
+     systemctl enable docker.service 
+     systemctl start docker.service 
+     systemctl status docker.service 
+     sudo dnf install git -y
+     mkdir -pv /DevOps
+     sudo mkdir -pv /DevOps
+     sudo chown -Rv student /DevOps/
+     ls -ld /DevOps/
+     code /DevOps/ &

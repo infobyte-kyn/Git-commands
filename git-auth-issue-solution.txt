@@ -1,0 +1,15 @@
+    
+   mkdir -pv Git-all
+   cd Git-all
+   cp -v /home/student/Data1/* .
+   ls
+   git add .
+   git init .
+   git add .
+   git commit -m "Git-notes-day-1"
+   git status 
+   git remote -v
+   git remote remove origin 
+   git remote add origin https://github.com/infobyte-kyn/rnd.git
+   git remote set-url origin https://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@github.com/infobyte-kyn/rnd.git 
+   git push origin master
